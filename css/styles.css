@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Space+Mono:wght@700&display=swap');
+body {
+    background-color: #403d39;
+}
+
+.calculatorContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -160px 0 0 -260px;
+    height: 320px;
+    width: 520px;
+    background-color: #252422;
+    border: black 5px;
+    border-radius: 5px;
+}
+
+table {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -150px 0 0 -250px;
+    height: 300px;
+    width: 500px;
+}
+
+#display {
+    width: 98%;
+    height: 110px;
+    background: #fffcf2;
+    border: #fffcf2 solid;
+    border-radius: 5px;
+    font-size: 40px;
+    vertical-align: middle;
+    text-align: right;
+    font-family: 'Space Mono', monospace;
+    color: #ff7f51;
+}
+
+button {
+    background-color: #252422;
+    height: 98%;
+    width: 98%;
+    color: white;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+}
